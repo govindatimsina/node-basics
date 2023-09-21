@@ -1,0 +1,15 @@
+{
+  "name": "node-learning",
+  "version": "1.0.0",
+  "description": "This is the project for learning node. I am currently learning node and therefore creating a dummy package for this course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Govinda Timsina",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

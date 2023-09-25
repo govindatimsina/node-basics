@@ -17,5 +17,7 @@ app.get(
 app.get("/about", (req, res) => {
   res.sendFile(`${finalPaths}/about.html`);
 });
-
+app.use((req, res) => {
+  res.sendFile(`${finalPaths}/notFound.html`);
+});
 app.listen(4000);
